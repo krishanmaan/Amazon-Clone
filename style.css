@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+
+}
+
+.body {
+    background-color: #E3E6E6;
+}
+
+/* navbar */
+.navbar {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+/* Border */
+.border {
+    border: 0.10px solid transparent;
+    height: 500px;
+}
+
+.border:hover {
+    border: 0.10px solid white;
+}
+
+/* nav-left */
+.nav-left {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.nav-logo {
+    background-image: url("image/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 113px;
+    font-size: 14px;
+    color: #007185;
+    padding: 1px 8px 0px 6px;
+    margin: 1px;
+}
+
+.nav-address {
+    align-items: center;
+    justify-content: center;
+    width: 70px ;
+    height: 50%;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+}
+
+.add-frist {
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 15px;
+    height: 14px;
+    width: 52.24;
+}
+
+.add-sec {
+    font-size: 14px;
+    margin-left: 3px;
+    font-style: unset;
+    height: 16px;
+    width: 52.64;
+    padding: 0px 0px 1px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    height: 18px;
+    width: 15px;
+    margin: 0px 0px 0px;
+}
+
+/* nav-fill */
+
+.nav-fill{
+    width: 100%;
+    margin-right: 20px;
+}
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    margin: 10px 10px;
+    padding: 0px 0px 0px 0px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width:auto;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    font-size: 14px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1ram;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2ram;
+    background-color: #febd68;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #0f1111;
+}
+
+/* nav-right */
+.nav-right {
+    width: auto;
+    height: auto;
+    margin: 2px 0px 0px;
+    padding: 3px 0px 0px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.nav-sing {
+    width: 100px;
+    height: 50%;
+    margin: 0px 0px 0px 2px;
+    padding: 0px 9px 10px;
+    align-items: center;
+    justify-content: center;
+    display: inline;
+}
+
+.add-fristone {
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 2px;
+    justify-content: center;
+    align-items: baseline;
+    padding-left: 10px;
+    width: 100px;
+}
+
+.nav-retu {
+    width: auto;
+    height: 50%;
+    margin: 0px 0px 0px 2px;
+    padding: 0px 9px 10px;
+    align-items: center;
+    justify-content: center;
+    display: inline;
+}
+
+.add-fristretu {
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 2px;
+    justify-content: center;
+    align-items: baseline;
+    padding-left: 10px;
+    width: 60px;
+}
+
+.nav-cart i {
+    font-size: 30px;
+    padding-left: 10px;
+    width: 26px;
+    height: 38px;
+    justify-content: center;
+    align-items: baseline;
+
+
+}
+
+.nav-cart p{
+    margin: 0px 0px 0px 2px;
+    padding-left: 8px;
+}
+
+.nav-cart  {
+    width: auto;
+    height: 45%;
+    margin: 0px 0px 0px 2px;
+    padding: 0px 9px 10px;
+    margin-right: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    display: flex;
+    /* justify-content:center; */
+    align-items: baseline;
+    
+
+}
+
+/* Panel */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85ram;
+}
+
+.panel-deals {
+    font-size: 0.9ram;
+    font-weight: 700;
+}
+
+/* salid potu */
+.salid {
+    height: 600px;
+    background-image: url("image/hero_image.jpg");
+    background-size: cover;
+    margin: 0px 200px;
+
+}
+
+
+.slidbutton {
+    height: 300px;
+    color: #007185;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+.slidbutton p {
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* hero-section */
+.hero-section {
+    display: flex;
+    justify-content: center;
+
+    /* align-items: center; */
+    /* width: 100%; */
+}
+
+
+.hero-msg {
+    background-color: #F5F6F6;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    width: 100ram;
+    /* margin-bottom: 25px; */
+    /* align-items: baseline; */
+    margin: 10px 14px;
+
+} 
+
+.main-layout {
+    width: 100%;
+    height: auto;
+    /* margin-top: 260px; */
+
+}
+
+
+.hero-msg a {
+    color: #007185;
+}
+
+.product {
+    padding: 20px 0px;
+
+}
+
+.Productssestionone {
+    display: flex;
+    
+}
+.Productsone {
+    height: 420px;
+    width: 370px;
+    background-color:white;
+    padding: 20px 0px 15px 0px;
+    margin: 0px 20px;
+    align-items: center;
+
+
+}
+
+.h1 {
+    font-size: 21px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.oneone {
+    /* width: 254px; */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.oneone img {
+    height: 115px;
+    width: 50%;
+}
+.Productstwo {
+    height: 420px;
+    width: 370px;
+    background-color: #853e00;
+    padding: 20px 0px 15px 0px; 
+    margin: 0px 20px;
+
+}
+
+.Productsthree {
+    height: 420px;
+    width: 370px;
+    background-color: #4e8500;
+    padding: 20px 0px 15px 0px;
+    margin: 0px 20px;
+
+}
+
+.Productsfour {
+    height: 420px;
+    width: 370px;
+    background-color: #160085;
+    padding: 20px 0px 15px 0px;
+    margin: 0px 20px;
+    
+
+}
+
+.footur {
+    width: 100%;
+    height: 1013px;
+    background-color: #131A22;
+}
